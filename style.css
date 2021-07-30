@@ -1,0 +1,89 @@
+:root{
+    --background-color: #CCCCFF	;
+    --display-color: #9B30FF;
+    --display-font-size: 3rem;
+}
+
+body{
+    
+    background-color: var(--background-color);
+}
+#variables{
+    text-align: center;
+    margin: 3% 10%;
+}
+
+
+
+div label{
+    margin: 0 5%;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div input{
+    border:3px solid black;
+    background-color: var(--background-color);
+}
+#font-size{
+    background-color: var(--display-color);
+}
+
+
+.display{
+    margin: 3% 35% 0 35%;
+}
+#display{
+    box-shadow: 3px 0px 3px 1px rgb(146, 145, 145);
+    width: 25vw;
+    height: 20vh;
+    border-radius: 20px;
+    border: 0;
+    text-align: right;
+    font-size: var(--display-font-size);
+    padding: 0 3%;
+    background-color: var(--display-color);
+    color: #fff;
+}
+
+/* BUTTONS */
+
+#buttons{
+    margin: 0 35%;
+    width: 23.7vw;
+    box-shadow: 3px 3px 3px 1px rgb(146, 145, 145);
+    border-radius: 20px;
+    padding: 3% 0 3% 3% ;
+    background-color: #fff;
+    font-size: 1.5rem;
+
+}
+.flex-container{
+    
+    display: flex;
+}
+.flex1{
+    flex: 3;
+}
+.flex2{
+    flex:1;
+}
+.flex{
+    margin-top: 15%;
+    flex:1;
+}
+.btn{
+    border: 0;
+    font-size: 1.5rem;
+    background-color: #fff;
+}
+.grey{
+    background-color: rgb(218, 213, 213);
+    border-radius: 100%;
+    padding: 5% 20%;
+}
+.equal{
+    background-color: var(--display-color);
+    border-radius: 100%;
+    padding: 5% 20%;
+    color: #fff;
+}
